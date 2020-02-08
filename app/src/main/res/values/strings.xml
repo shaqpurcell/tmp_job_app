@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Work Planner</string>
+    <string name="app_title">Home Screen</string>
+    <!--Main Screen-->
+    <string name="mainIconDescription">Two workers planning a job.</string>
+    <string name="calendarButtonText">Calendar</string>
+    <string name="buttonCreateNewText">Create New Job/Worker</string>
+    <string name="buttonCreateJob">Job</string>
+    <string name="buttonCreateWorker">Worker</string>
+    <string name="bottomBarText">Powered By... \u2764</string>
+
+    <!--Create Worker/Job-->
+    <string name="hintJobName">Job Name</string>
+    <string name="hintJobDescription">Job Description</string>
+    <string name="titleSaveText">Save Job</string>
+    <string name="hintWorkerFirst">First Name</string>
+    <string name="hintWorkerLast">Last Name</string>
+    <string name="buttonSaveText">Save</string>
+    <string name="buttonCancelText">Cancel</string>
+
+
+
+
+</resources>

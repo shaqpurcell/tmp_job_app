@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Dialog Box Styling-->
+    <style name="AlertDialogTheme" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:colorPrimary">#22397F</item>
+        <item name="android:textColorPrimary">#22397F</item>
+        <item name="android:colorAccent">#22397F</item>
+        <item name="colorPrimaryDark">#22397F</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:colorBackground">@android:color/darker_gray</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:colorBackground">@android:color/darker_gray</item>
+    </style>
+
+    <!--Main Menu Styling-->
+    <style name="buttonMainStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:backgroundTint">@android:color/holo_orange_dark</item>
+    </style>
+
+    <style name="bottomBarStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@android:color/holo_orange_light</item>
+    </style>
+
+    <style name="topBarStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+
+
+</resources>

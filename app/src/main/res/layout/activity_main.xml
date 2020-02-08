@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/mainIconDescription"
+        app:srcCompat="@drawable/engineers"
+        android:layout_weight="0.05"/>
+
+    <Button
+        android:id="@+id/buttonCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calendarButtonText"
+        android:layout_weight="0.2"
+        style="@style/buttonMainStyle"/>
+
+    <Button
+        android:id="@+id/buttonCreateNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonCreateNewText"
+        android:layout_weight="0.1"
+        style="@style/buttonMainStyle"/>
+
+    <TextView
+        android:id="@+id/textViewBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/bottomBarText"
+        style="@style/bottomBarStyle"/>
+
+
+</LinearLayout>
